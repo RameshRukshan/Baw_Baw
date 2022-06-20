@@ -29,6 +29,7 @@ namespace Baw_Baw
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.btn_formClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.txt_username = new Guna.UI2.WinForms.Guna2TextBox();
@@ -37,6 +38,8 @@ namespace Baw_Baw
             this.btn_clear = new Guna.UI2.WinForms.Guna2GradientButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_invalid = new System.Windows.Forms.Label();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -163,6 +166,18 @@ namespace Baw_Baw
             this.lbl_invalid.TabIndex = 6;
             this.lbl_invalid.Text = "Invalid Username or Password";
             // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
+            // guna2DragControl2
+            // 
+            this.guna2DragControl2.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl2.TargetControl = this.pictureBox1;
+            this.guna2DragControl2.UseTransparentDrag = true;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -195,6 +210,8 @@ namespace Baw_Baw
         private Guna.UI2.WinForms.Guna2GradientButton btn_clear;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbl_invalid;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
     }
 }
 

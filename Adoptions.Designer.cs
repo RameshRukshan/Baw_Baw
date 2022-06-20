@@ -29,6 +29,7 @@ namespace Baw_Baw
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Adoptions));
             this.panel_topBar = new Guna.UI2.WinForms.Guna2Panel();
             this.lbl_topBarName = new System.Windows.Forms.Label();
@@ -46,6 +47,7 @@ namespace Baw_Baw
             this.btn_treatments = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btn_animals = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btn_dashboard = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel_topBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -345,6 +347,12 @@ namespace Baw_Baw
             this.btn_dashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btn_dashboard.Click += new System.EventHandler(this.btn_dashboard_Click);
             // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this.panel_topBar;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
             // Adoptions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -386,5 +394,6 @@ namespace Baw_Baw
         private Guna.UI2.WinForms.Guna2GradientButton btn_treatments;
         private Guna.UI2.WinForms.Guna2GradientButton btn_animals;
         private Guna.UI2.WinForms.Guna2GradientButton btn_dashboard;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }

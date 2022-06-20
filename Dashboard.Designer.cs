@@ -29,6 +29,7 @@ namespace Baw_Baw
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.panel_topBar = new Guna.UI2.WinForms.Guna2Panel();
             this.lbl_topBarName = new System.Windows.Forms.Label();
@@ -46,6 +47,7 @@ namespace Baw_Baw
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel_topBar.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -345,6 +347,12 @@ namespace Baw_Baw
             this.label1.TabIndex = 3;
             this.label1.Text = "Copyright 2022 © Developed by Group of Colleague at NIBM";
             // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this.panel_topBar;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -387,5 +395,6 @@ namespace Baw_Baw
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }
