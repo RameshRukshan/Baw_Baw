@@ -142,6 +142,7 @@ namespace Baw_Baw
             this.btn_notifications.TabIndex = 9;
             this.btn_notifications.Text = "Notification";
             this.btn_notifications.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_notifications.Click += new System.EventHandler(this.btn_notifications_Click);
             // 
             // btn_logOut
             // 
@@ -159,6 +160,7 @@ namespace Baw_Baw
             this.btn_logOut.Size = new System.Drawing.Size(171, 34);
             this.btn_logOut.TabIndex = 8;
             this.btn_logOut.Text = "Log-Out";
+            this.btn_logOut.Click += new System.EventHandler(this.btn_logOut_Click);
             // 
             // btn_adoptions
             // 
@@ -181,6 +183,7 @@ namespace Baw_Baw
             this.btn_adoptions.TabIndex = 7;
             this.btn_adoptions.Text = "Adoptions";
             this.btn_adoptions.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_adoptions.Click += new System.EventHandler(this.btn_adoptions_Click);
             // 
             // btn_volunteers
             // 
@@ -203,6 +206,7 @@ namespace Baw_Baw
             this.btn_volunteers.TabIndex = 6;
             this.btn_volunteers.Text = "Volunteers";
             this.btn_volunteers.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_volunteers.Click += new System.EventHandler(this.btn_volunteers_Click);
             // 
             // btn_rescue
             // 
@@ -225,6 +229,7 @@ namespace Baw_Baw
             this.btn_rescue.TabIndex = 5;
             this.btn_rescue.Text = "Rescue";
             this.btn_rescue.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_rescue.Click += new System.EventHandler(this.btn_rescue_Click);
             // 
             // btn_rescueTeam
             // 
@@ -246,6 +251,7 @@ namespace Baw_Baw
             this.btn_rescueTeam.Size = new System.Drawing.Size(180, 45);
             this.btn_rescueTeam.TabIndex = 4;
             this.btn_rescueTeam.Text = "Rescue Team";
+            this.btn_rescueTeam.Click += new System.EventHandler(this.btn_rescueTeam_Click);
             // 
             // btn_medicalCenter
             // 
@@ -268,6 +274,7 @@ namespace Baw_Baw
             this.btn_medicalCenter.TabIndex = 3;
             this.btn_medicalCenter.Text = "Medica Center";
             this.btn_medicalCenter.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_medicalCenter.Click += new System.EventHandler(this.btn_medicalCenter_Click);
             // 
             // btn_treatments
             // 
@@ -290,6 +297,7 @@ namespace Baw_Baw
             this.btn_treatments.TabIndex = 2;
             this.btn_treatments.Text = "Treatments";
             this.btn_treatments.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_treatments.Click += new System.EventHandler(this.btn_treatments_Click);
             // 
             // btn_animals
             // 
@@ -312,6 +320,7 @@ namespace Baw_Baw
             this.btn_animals.TabIndex = 1;
             this.btn_animals.Text = "Animals";
             this.btn_animals.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_animals.Click += new System.EventHandler(this.btn_animals_Click);
             // 
             // btn_dashboard
             // 
@@ -334,6 +343,7 @@ namespace Baw_Baw
             this.btn_dashboard.TabIndex = 0;
             this.btn_dashboard.Text = "Dashboard";
             this.btn_dashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_dashboard.Click += new System.EventHandler(this.btn_dashboard_Click);
             // 
             // RescueTeam
             // 
