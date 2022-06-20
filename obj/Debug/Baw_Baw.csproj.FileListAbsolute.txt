@@ -1,0 +1,11 @@
+E:\NIBM\Final Project\Baw_Baw\bin\Debug\Baw_Baw.exe.config
+E:\NIBM\Final Project\Baw_Baw\bin\Debug\Baw_Baw.exe
+E:\NIBM\Final Project\Baw_Baw\bin\Debug\Baw_Baw.pdb
+E:\NIBM\Final Project\Baw_Baw\bin\Debug\Guna.UI2.dll
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.csproj.AssemblyReference.cache
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.Properties.Resources.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.csproj.GenerateResource.cache
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.csproj.CoreCompileInputs.cache
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.csproj.CopyComplete
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.exe
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.pdb
