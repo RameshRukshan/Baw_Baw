@@ -36,16 +36,16 @@ namespace Baw_Baw
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2GradientButton9 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2GradientButton8 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton7 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_notifications = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_logOut = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_adoptions = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_volunteers = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_rescue = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_rescueTeam = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_MedicalCenter = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_treatments = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_animals = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_dashboard = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panel_topBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -105,235 +105,235 @@ namespace Baw_Baw
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton9);
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton8);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton7);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton6);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton5);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton4);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton3);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton2);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton1);
+            this.guna2Panel1.Controls.Add(this.btn_notifications);
+            this.guna2Panel1.Controls.Add(this.btn_logOut);
+            this.guna2Panel1.Controls.Add(this.btn_adoptions);
+            this.guna2Panel1.Controls.Add(this.btn_volunteers);
+            this.guna2Panel1.Controls.Add(this.btn_rescue);
+            this.guna2Panel1.Controls.Add(this.btn_rescueTeam);
+            this.guna2Panel1.Controls.Add(this.btn_MedicalCenter);
+            this.guna2Panel1.Controls.Add(this.btn_treatments);
+            this.guna2Panel1.Controls.Add(this.btn_animals);
+            this.guna2Panel1.Controls.Add(this.btn_dashboard);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
             this.guna2Panel1.Location = new System.Drawing.Point(-2, 24);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(215, 612);
             this.guna2Panel1.TabIndex = 26;
             // 
-            // guna2GradientButton9
+            // btn_notifications
             // 
-            this.guna2GradientButton9.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton9.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton9.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton9.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton9.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton9.Image")));
-            this.guna2GradientButton9.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton9.Location = new System.Drawing.Point(13, 442);
-            this.guna2GradientButton9.Name = "guna2GradientButton9";
-            this.guna2GradientButton9.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton9.TabIndex = 9;
-            this.guna2GradientButton9.Text = "Notification";
-            this.guna2GradientButton9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_notifications.BorderColor = System.Drawing.Color.White;
+            this.btn_notifications.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_notifications.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_notifications.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_notifications.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_notifications.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_notifications.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_notifications.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_notifications.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
+            this.btn_notifications.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_notifications.ForeColor = System.Drawing.Color.White;
+            this.btn_notifications.Image = ((System.Drawing.Image)(resources.GetObject("btn_notifications.Image")));
+            this.btn_notifications.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_notifications.Location = new System.Drawing.Point(13, 442);
+            this.btn_notifications.Name = "btn_notifications";
+            this.btn_notifications.Size = new System.Drawing.Size(180, 45);
+            this.btn_notifications.TabIndex = 9;
+            this.btn_notifications.Text = "Notification";
+            this.btn_notifications.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2Button1
+            // btn_logOut
             // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(45)))), ((int)(((byte)(59)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.Location = new System.Drawing.Point(22, 540);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(171, 34);
-            this.guna2Button1.TabIndex = 8;
-            this.guna2Button1.Text = "Log-Out";
+            this.btn_logOut.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_logOut.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_logOut.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_logOut.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_logOut.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(45)))), ((int)(((byte)(59)))));
+            this.btn_logOut.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_logOut.ForeColor = System.Drawing.Color.White;
+            this.btn_logOut.Image = ((System.Drawing.Image)(resources.GetObject("btn_logOut.Image")));
+            this.btn_logOut.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_logOut.Location = new System.Drawing.Point(22, 540);
+            this.btn_logOut.Name = "btn_logOut";
+            this.btn_logOut.Size = new System.Drawing.Size(171, 34);
+            this.btn_logOut.TabIndex = 8;
+            this.btn_logOut.Text = "Log-Out";
             // 
-            // guna2GradientButton8
+            // btn_adoptions
             // 
-            this.guna2GradientButton8.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton8.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton8.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton8.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton8.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton8.Image")));
-            this.guna2GradientButton8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton8.Location = new System.Drawing.Point(13, 391);
-            this.guna2GradientButton8.Name = "guna2GradientButton8";
-            this.guna2GradientButton8.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton8.TabIndex = 7;
-            this.guna2GradientButton8.Text = "Adoptions";
-            this.guna2GradientButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_adoptions.BorderColor = System.Drawing.Color.White;
+            this.btn_adoptions.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_adoptions.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_adoptions.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_adoptions.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_adoptions.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_adoptions.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_adoptions.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_adoptions.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
+            this.btn_adoptions.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_adoptions.ForeColor = System.Drawing.Color.White;
+            this.btn_adoptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_adoptions.Image")));
+            this.btn_adoptions.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_adoptions.Location = new System.Drawing.Point(13, 391);
+            this.btn_adoptions.Name = "btn_adoptions";
+            this.btn_adoptions.Size = new System.Drawing.Size(180, 45);
+            this.btn_adoptions.TabIndex = 7;
+            this.btn_adoptions.Text = "Adoptions";
+            this.btn_adoptions.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2GradientButton7
+            // btn_volunteers
             // 
-            this.guna2GradientButton7.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton7.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton7.FillColor2 = System.Drawing.Color.SlateGray;
-            this.guna2GradientButton7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton7.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton7.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton7.Image")));
-            this.guna2GradientButton7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton7.Location = new System.Drawing.Point(13, 340);
-            this.guna2GradientButton7.Name = "guna2GradientButton7";
-            this.guna2GradientButton7.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton7.TabIndex = 6;
-            this.guna2GradientButton7.Text = "Volunteers";
+            this.btn_volunteers.BorderColor = System.Drawing.Color.White;
+            this.btn_volunteers.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_volunteers.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_volunteers.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_volunteers.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_volunteers.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_volunteers.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_volunteers.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_volunteers.FillColor2 = System.Drawing.Color.SlateGray;
+            this.btn_volunteers.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_volunteers.ForeColor = System.Drawing.Color.White;
+            this.btn_volunteers.Image = ((System.Drawing.Image)(resources.GetObject("btn_volunteers.Image")));
+            this.btn_volunteers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_volunteers.Location = new System.Drawing.Point(13, 340);
+            this.btn_volunteers.Name = "btn_volunteers";
+            this.btn_volunteers.Size = new System.Drawing.Size(180, 45);
+            this.btn_volunteers.TabIndex = 6;
+            this.btn_volunteers.Text = "Volunteers";
             // 
-            // guna2GradientButton6
+            // btn_rescue
             // 
-            this.guna2GradientButton6.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton6.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton6.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton6.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton6.Image")));
-            this.guna2GradientButton6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton6.Location = new System.Drawing.Point(13, 289);
-            this.guna2GradientButton6.Name = "guna2GradientButton6";
-            this.guna2GradientButton6.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton6.TabIndex = 5;
-            this.guna2GradientButton6.Text = "Rescue";
-            this.guna2GradientButton6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_rescue.BorderColor = System.Drawing.Color.White;
+            this.btn_rescue.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_rescue.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_rescue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_rescue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_rescue.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_rescue.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_rescue.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_rescue.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
+            this.btn_rescue.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_rescue.ForeColor = System.Drawing.Color.White;
+            this.btn_rescue.Image = ((System.Drawing.Image)(resources.GetObject("btn_rescue.Image")));
+            this.btn_rescue.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_rescue.Location = new System.Drawing.Point(13, 289);
+            this.btn_rescue.Name = "btn_rescue";
+            this.btn_rescue.Size = new System.Drawing.Size(180, 45);
+            this.btn_rescue.TabIndex = 5;
+            this.btn_rescue.Text = "Rescue";
+            this.btn_rescue.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2GradientButton5
+            // btn_rescueTeam
             // 
-            this.guna2GradientButton5.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton5.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton5.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton5.Image")));
-            this.guna2GradientButton5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton5.Location = new System.Drawing.Point(13, 238);
-            this.guna2GradientButton5.Name = "guna2GradientButton5";
-            this.guna2GradientButton5.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton5.TabIndex = 4;
-            this.guna2GradientButton5.Text = "Rescue Team";
-            this.guna2GradientButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_rescueTeam.BorderColor = System.Drawing.Color.White;
+            this.btn_rescueTeam.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_rescueTeam.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_rescueTeam.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_rescueTeam.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_rescueTeam.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_rescueTeam.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_rescueTeam.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_rescueTeam.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
+            this.btn_rescueTeam.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_rescueTeam.ForeColor = System.Drawing.Color.White;
+            this.btn_rescueTeam.Image = ((System.Drawing.Image)(resources.GetObject("btn_rescueTeam.Image")));
+            this.btn_rescueTeam.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_rescueTeam.Location = new System.Drawing.Point(13, 238);
+            this.btn_rescueTeam.Name = "btn_rescueTeam";
+            this.btn_rescueTeam.Size = new System.Drawing.Size(180, 45);
+            this.btn_rescueTeam.TabIndex = 4;
+            this.btn_rescueTeam.Text = "Rescue Team";
+            this.btn_rescueTeam.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2GradientButton4
+            // btn_MedicalCenter
             // 
-            this.guna2GradientButton4.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton4.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton4.Image")));
-            this.guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(13, 187);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton4.TabIndex = 3;
-            this.guna2GradientButton4.Text = "Medica Center";
-            this.guna2GradientButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_MedicalCenter.BorderColor = System.Drawing.Color.White;
+            this.btn_MedicalCenter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_MedicalCenter.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_MedicalCenter.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_MedicalCenter.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_MedicalCenter.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_MedicalCenter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_MedicalCenter.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_MedicalCenter.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
+            this.btn_MedicalCenter.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_MedicalCenter.ForeColor = System.Drawing.Color.White;
+            this.btn_MedicalCenter.Image = ((System.Drawing.Image)(resources.GetObject("btn_MedicalCenter.Image")));
+            this.btn_MedicalCenter.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_MedicalCenter.Location = new System.Drawing.Point(13, 187);
+            this.btn_MedicalCenter.Name = "btn_MedicalCenter";
+            this.btn_MedicalCenter.Size = new System.Drawing.Size(180, 45);
+            this.btn_MedicalCenter.TabIndex = 3;
+            this.btn_MedicalCenter.Text = "Medica Center";
+            this.btn_MedicalCenter.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2GradientButton3
+            // btn_treatments
             // 
-            this.guna2GradientButton3.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton3.Image")));
-            this.guna2GradientButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(13, 136);
-            this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton3.TabIndex = 2;
-            this.guna2GradientButton3.Text = "Treatments";
-            this.guna2GradientButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_treatments.BorderColor = System.Drawing.Color.White;
+            this.btn_treatments.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_treatments.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_treatments.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_treatments.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_treatments.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_treatments.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_treatments.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_treatments.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
+            this.btn_treatments.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_treatments.ForeColor = System.Drawing.Color.White;
+            this.btn_treatments.Image = ((System.Drawing.Image)(resources.GetObject("btn_treatments.Image")));
+            this.btn_treatments.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_treatments.Location = new System.Drawing.Point(13, 136);
+            this.btn_treatments.Name = "btn_treatments";
+            this.btn_treatments.Size = new System.Drawing.Size(180, 45);
+            this.btn_treatments.TabIndex = 2;
+            this.btn_treatments.Text = "Treatments";
+            this.btn_treatments.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2GradientButton2
+            // btn_animals
             // 
-            this.guna2GradientButton2.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton2.Image")));
-            this.guna2GradientButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(13, 85);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton2.TabIndex = 1;
-            this.guna2GradientButton2.Text = "Animals";
-            this.guna2GradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_animals.BorderColor = System.Drawing.Color.White;
+            this.btn_animals.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_animals.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_animals.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_animals.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_animals.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_animals.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_animals.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_animals.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
+            this.btn_animals.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_animals.ForeColor = System.Drawing.Color.White;
+            this.btn_animals.Image = ((System.Drawing.Image)(resources.GetObject("btn_animals.Image")));
+            this.btn_animals.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_animals.Location = new System.Drawing.Point(13, 85);
+            this.btn_animals.Name = "btn_animals";
+            this.btn_animals.Size = new System.Drawing.Size(180, 45);
+            this.btn_animals.TabIndex = 1;
+            this.btn_animals.Text = "Animals";
+            this.btn_animals.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2GradientButton1
+            // btn_dashboard
             // 
-            this.guna2GradientButton1.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton1.Image")));
-            this.guna2GradientButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(13, 34);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton1.TabIndex = 0;
-            this.guna2GradientButton1.Text = "Dashboard";
-            this.guna2GradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_dashboard.BorderColor = System.Drawing.Color.White;
+            this.btn_dashboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_dashboard.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_dashboard.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_dashboard.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_dashboard.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_dashboard.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_dashboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(55)))));
+            this.btn_dashboard.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
+            this.btn_dashboard.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btn_dashboard.ForeColor = System.Drawing.Color.White;
+            this.btn_dashboard.Image = ((System.Drawing.Image)(resources.GetObject("btn_dashboard.Image")));
+            this.btn_dashboard.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_dashboard.Location = new System.Drawing.Point(13, 34);
+            this.btn_dashboard.Name = "btn_dashboard";
+            this.btn_dashboard.Size = new System.Drawing.Size(180, 45);
+            this.btn_dashboard.TabIndex = 0;
+            this.btn_dashboard.Text = "Dashboard";
+            this.btn_dashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // Volunteers
             // 
@@ -366,15 +366,15 @@ namespace Baw_Baw
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton9;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton8;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton7;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton6;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton5;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_notifications;
+        private Guna.UI2.WinForms.Guna2Button btn_logOut;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_adoptions;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_volunteers;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_rescue;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_rescueTeam;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_MedicalCenter;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_treatments;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_animals;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_dashboard;
     }
 }

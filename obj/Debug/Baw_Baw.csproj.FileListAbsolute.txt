@@ -26,3 +26,12 @@ E:\NIBM\Final Project\Baw_Baw\bin\Debug\MySql.Data.xml
 E:\NIBM\Final Project\Baw_Baw\bin\Debug\MySql.Data.EntityFramework.xml
 E:\NIBM\Final Project\Baw_Baw\bin\Debug\MySql.Web.xml
 E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.exe.config
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.Adoptions.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.Animal.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.Dashboard.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.MedicalCenter.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.Notifications.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.Rescue.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.RescueTeam.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.Treatments.resources
+E:\NIBM\Final Project\Baw_Baw\obj\Debug\Baw_Baw.Volunteers.resources

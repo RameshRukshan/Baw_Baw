@@ -13,6 +13,7 @@ namespace Baw_Baw
 {
     public partial class Login : Form
     {
+        string Type;
         public Login()
         {
             InitializeComponent();
@@ -40,7 +41,7 @@ namespace Baw_Baw
             string username = txt_username.Text;
             string password = txt_password.Text;
 
-            if(username != "" && password != "")
+            if (username != "" && password != "")
             {
                 dbConn dbconnection = new dbConn();
                 dbconnection.Open();
@@ -51,8 +52,13 @@ namespace Baw_Baw
 
                 if (row.HasRows)
                 {
+                    while (row.Read())
+                    {
+                        Type = row["type"].ToString();
+                    }
+                   
                     this.Hide();
-                    Dashboard home = new Dashboard();
+                    Dashboard home = new Dashboard(Type);
                     home.Show();
                 }
                 else

@@ -12,9 +12,28 @@ namespace Baw_Baw
 {
     public partial class Dashboard : Form
     {
-        public Dashboard()
+        string UserType;
+
+        public Dashboard(string type)
         {
             InitializeComponent();
+            UserType = type;
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            if (UserType == "True")
+            {
+                btn_adoptions.Visible = false;
+                btn_animals.Visible = true;
+                btn_dashboard.Visible = true;
+                btn_medicalCenter.Visible = false;
+                btn_notification.Visible = false;
+                btn_rescue.Visible = false;
+                btn_rescueTeam.Visible = false;
+                btn_treatments.Visible = true;
+                btn_volunteer.Visible = false;
+            }
         }
     }
 }
