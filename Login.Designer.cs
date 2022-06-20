@@ -120,6 +120,7 @@ namespace Baw_Baw
             this.btn_login.Size = new System.Drawing.Size(104, 36);
             this.btn_login.TabIndex = 3;
             this.btn_login.Text = "Login";
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // btn_clear
             // 
@@ -139,6 +140,7 @@ namespace Baw_Baw
             this.btn_clear.Size = new System.Drawing.Size(104, 36);
             this.btn_clear.TabIndex = 4;
             this.btn_clear.Text = "Clear";
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
             // pictureBox1
             // 
@@ -177,6 +179,7 @@ namespace Baw_Baw
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.Text = "Login - Baw Baw Admin";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
