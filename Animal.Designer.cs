@@ -365,6 +365,7 @@ namespace Baw_Baw
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Animal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Animal";
             this.Load += new System.EventHandler(this.Animal_Load);
             this.panel_topBar.ResumeLayout(false);

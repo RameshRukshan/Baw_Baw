@@ -365,6 +365,7 @@ namespace Baw_Baw
             this.Controls.Add(this.panel_topBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel_topBar.ResumeLayout(false);

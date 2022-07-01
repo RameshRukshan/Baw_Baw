@@ -365,6 +365,7 @@ namespace Baw_Baw
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Volunteers";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Volunteers";
             this.panel_topBar.ResumeLayout(false);
             this.panel_topBar.PerformLayout();
